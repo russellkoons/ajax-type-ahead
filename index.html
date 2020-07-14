@@ -24,7 +24,7 @@
 
   function findMatches(word, cities) {
     return cities.filter(place => {
-      
+      return place.city.match(word)
     })
   }
 </script>
